@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<title>我的网站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的小网站</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{
+            min-height:100vh;
+            background:linear-gradient(135deg,#667eea,#764ba2);
+            font-family:system-ui,sans-serif;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:#fff;
+        }
+        .card{
+            background:rgba(255,255,255,0.15);
+            backdrop-filter:blur(10px);
+            padding:40px 60px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 8px 32px rgba(0,0,0,0.2);
+        }
+        h1{font-size:36px;margin-bottom:16px}
+        p{font-size:18px;opacity:0.9}
+    </style>
 </head>
 <body>
-<h1>你好！这是我的免费网站</h1>
-<p>测试成功啦</p>
+    <div class="card">
+        <h1>欢迎来到我的网站</h1>
+        <p>这是用 GitHub Pages 搭建的免费网页 ✨</p>
+    </div>
 </body>
 </html>
